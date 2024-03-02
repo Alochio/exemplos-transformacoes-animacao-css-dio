@@ -8,7 +8,8 @@ Você vai encontrar na pasta <code>transformacao2d</code>.<br>
 <code>index.html</code> serve para observar os resultados.<br>
 <code>styles.css</code> estão as estilizações.<br>
 
-![Gif das animações 2D](/transformacao2d/assets/img-header/transformacao2d.gif)
+O gif a baixo demostra as transformações criadas utilizando o hover:<br>
+<img src="/transformacao2d/assets/img-header/transformacao2d.gif" alt="Gif das animações 2D" width="500"/>
 
 ### Transformações 3d:
 
