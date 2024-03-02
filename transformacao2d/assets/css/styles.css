@@ -32,7 +32,7 @@ body{
 }
 
 .rotatex{
-    background-image: url(/trasicoes-2d/assets/image/avatar.jpeg);
+    background-image: url(/transformacao2d/assets/images/avatar.jpeg);
     background-size: cover;
     border: 1px solid black;
     width: 200px;
@@ -46,7 +46,7 @@ body{
 }
 
 .rotatey{
-    background-image: url(/trasicoes-2d/assets/image/avatar.jpeg);
+    background-image: url(/transformacao2d/assets/images/avatar.jpeg);
     background-size: cover;
     border: 1px solid black;
     width: 200px;
