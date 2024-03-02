@@ -23,6 +23,5 @@ Você vai encontrar na pasta <code>animacoes</code>.<br>
 <code>index.html</code> serve para observar os resultados.<br>
 <code>styles.css</code> estão as estilizações.<br>
 
-O video abaixo mostra o exemplo criado com a utlização da transformação 3d + animações.
-
+O video abaixo mostra o exemplo criado com a utlização da transformação 3d + animações:<br>
 <img src="/conteudo-readme/animação.gif" alt="Gif das animações 2D" width="500"/>
