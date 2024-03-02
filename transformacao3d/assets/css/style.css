@@ -7,7 +7,7 @@ body{
     align-items: center;
 
     /*aplicamos a pespectiva no elemento pai*/
-    perspective: 300px;
+    perspective: 200px;
 
     /*altera a pespectiva de visão do elemento*/
     perspective-origin: center top;

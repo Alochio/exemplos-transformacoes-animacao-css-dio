@@ -8,6 +8,8 @@ Você vai encontrar na pasta <code>transformacao2d</code>.<br>
 <code>index.html</code> serve para observar os resultados.<br>
 <code>styles.css</code> estão as estilizações.<br>
 
+![Gif das animações 2D](/transformacao2d/assets/img-header/transformacao2d.gif)
+
 ### Transformações 3d:
 
 Você vai encontrar na pasta <code>transformacao3d</code>.<br>
