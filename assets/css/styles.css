@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(247,247,247);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.translate{
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.translate:hover{
+    transform: translate(50px, -100px);
+}
+
+.rotate{
+    background: linear-gradient(90deg, pink 0%, purple 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin: 20px;
+}
+
+.rotate:hover{
+    transform: rotate(30deg);
+}
+
+.rotatex{
+    background-image: url(/assets/images/avatar.jpeg);
+    background-size: cover;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin: 20px;
+}
+
+.rotatex:hover{
+    transform: rotateX(30deg)
+}
+
+.rotatey{
+    background-image: url(/assets/images/avatar.jpeg);
+    background-size: cover;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin: 20px;
+}
+
+.rotatey:hover{
+    transform: rotateY(30deg)
+}
+
+.scale{
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.scale:hover{
+    transform: scale(2,2);
+}
+
+.skew{
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    margin: 20px;
+}
+
+.skew:hover{
+    transform: skew(20deg, 10deg);
+    /*transform: skewX(20deg);*/
+    /*transform: skewY(20deg);*/
+}
+
+/*Tem a função Matrix que tem como fazer todas essas funções de uma vez só!!*/
