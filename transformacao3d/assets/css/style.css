@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(247,247,247);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*aplicamos a pespectiva no elemento pai*/
+    perspective: 300px;
+
+    /*altera a pespectiva de visão do elemento*/
+    perspective-origin: center top;
+
+    /*Preserva o formato 3d se tiver algum transform sendo usado*/
+    transform-style: preserve-3d;
+
+    /*Mostra a parte de traz do objeto 3d, caso insira o valor hidden não irá aparecer. Valor padrão é o visible*/
+    backface-visibility: visible;
+
+
+}
+
+.box{
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    margin: 8px;
+
+    /*Muda a o ponto origem da rotação na utlização do tranform:rotate();
+    transform-origin: left top;
+    */
+}
+
+/*
+.box:hover{
+    /* Podemos mudar a orientação mexendo em um só eixo ou nos 3 eixos ao mesmo tempo */
+    /*
+    transform: rotateX(20deg) rotateY(50deg) rotateZ(100deg);
+    transform: scale(2) rotateX(20deg);
+    transform: rotate(20deg);
+}
+*/
+
+/*Podemos usar o matriz para fazer todas essas funções ao msm tempo
+
+site que gera o código para a gente pois se trata de muitas orientações: https://www.cssportal.com/css-3d-transform-generator/
+
+ex de um matrix: 
+
+transform: scaleX(0.4) scaleY(1.4) scaleZ(0.3) rotateX(29deg) rotateY(189deg) rotateZ(234deg) translateX(-22px) translateY(0px) translateZ(0px) skewX(0deg) skewY(0deg);
+
+*/
